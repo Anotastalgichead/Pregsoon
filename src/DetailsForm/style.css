@@ -1,0 +1,51 @@
+.detailsFormContainer .slick-dots {
+    bottom: -18px !important;
+    left: 96px !important;
+    text-align: start !important;
+}
+
+@media(max-width:768px) {
+    .detailsFormContainer .slick-dots {
+        left: 0px !important;
+    }
+}
+
+.detailsFormContainer .slick-dots li {
+    margin: 0 !important;
+    width: 10px !important;
+}
+
+.slick-dots {
+    padding: 0% !important;
+}
+
+.slick-dots .slick-active button:before {
+    color: #8d4b9d !important;
+    font-size: 8px !important;
+}
+
+
+
+
+
+.detailsFormContainer .slick-prev {
+    display: none !important;
+}
+
+.detailsFormContainer .slick-next {
+    right: 0 !important;
+    left: 335px !important;
+    background: #ccacb9 !important;
+    border: 1px solid #703F81 !important;
+    border-radius: 10px !important;
+    width: 44px !important;
+    height: 44px !important;
+}
+
+.detailsFormContainer .slick-next:before {
+    content: url("../Images/right-outline.png") !important;
+}
+
+.slick-dots {
+    width: auto !important;
+}
